@@ -63,6 +63,16 @@ RUN pip install \
   qgrid \
   requests-html \
   tqdm \
+  tweepy \
+  praw  \
+  discord \
+  atproto \
+  pytumblr \
+  TikTokApi \
+  Mastodon.py \
+  instagrapi \
+  URLExtract \
+  urllib3 \
   unidecode && \
   jupyter server extension enable nbgitpuller --sys-prefix
 

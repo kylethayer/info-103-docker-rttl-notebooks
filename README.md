@@ -1,7 +1,12 @@
-# UW-IT JupyterHub for Teaching
+# Info 103 updated JupyterHub Docker container
+
+This is a fork of the official UW JupyterHub Docker containers, but the [SciPy](./scipy/README.md) one is updated for Info 103 by adding install steps for various social media python apis (discord, praw, atproto, etc.).
+
+
+## UW-IT JupyterHub for Teaching
 Docker images for base JupyterLab environments used in [UW-IT JupyterHub for Teaching](https://itconnect.uw.edu/learn/tools/jupyterhub-for-teaching/) service. General information about working with base images is here: https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html
 
-## Images:
+### Images:
 * [Datascience](./datascience/README.md)
 * [R](./r/README.md)
 * [RStudio](./rstudio/README.md)
