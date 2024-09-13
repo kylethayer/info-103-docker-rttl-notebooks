@@ -36,6 +36,7 @@ RUN pip install \
     jupyter-rsession-proxy \
     tensorflow \
     nbclassic \
+    jupyterlab-quarto \
     nbgitpuller && \
     jupyter server extension enable nbgitpuller --sys-prefix
 
