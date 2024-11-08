@@ -66,6 +66,7 @@ RUN pip install \
   tweepy \
   praw  \
   discord \
+  discord-py-interactions \
   atproto \
   pytumblr \
   TikTokApi \
